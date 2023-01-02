@@ -1,6 +1,6 @@
 import math
 
-def check_discriminant(a,b,c):
+def calculate_root(a,b,c):
   discriminant = (b**2) - (4 * a * c)
   print("the discriminant is - {}".format(discriminant))
   if discriminant == 0:
@@ -16,4 +16,4 @@ def check_discriminant(a,b,c):
 a=int(input('enter the first number - '))
 b=int(input('enter the second number - '))
 c=int(input('enter the third number - '))
-check_discriminant(a,b,c)
+calculate_root(a,b,c)

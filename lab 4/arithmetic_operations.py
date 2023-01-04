@@ -1,3 +1,4 @@
+#i think this is not the right way to do this program, based on the aim and objectives of lab 4
 exit = False
 while exit == False:
   print("-----------choose an operation-----------")
@@ -7,8 +8,8 @@ while exit == False:
   if operation!="8":
     num_one = float(input("enter the first number - "))
     num_two = float(input("enter the first number - "))
+    print("------answer------ ")
 
-  print("------answer------ ")
   match operation:
     case "1":
       print(num_one+num_two)  

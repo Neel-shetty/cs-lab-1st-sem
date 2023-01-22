@@ -7,3 +7,5 @@ for i in arr:
   sum = int(i) + sum
 
 print(sum)
+
+

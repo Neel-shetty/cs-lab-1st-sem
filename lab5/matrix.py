@@ -1,11 +1,10 @@
-#write a program to perform adition and subtraction on two matrix
-# zip map arr
+import numpy as np
 
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
 
+C = np.add(A, B)
+print("Addition of A and B: \n", C)
 
-# for i in range(0,2):
-#   for j in range(0,2):
-#     sum_matrix[i][j] = matrix1[i][j] + matrix2[i][j]
-
-  
-print(sum_matrix)
+C = np.subtract(A, B)
+print("Subtraction of A and B: \n", C)
